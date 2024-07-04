@@ -3,3 +3,4 @@ kind: Kustomization
 resources:
   - flux-components.yaml
   - ./kustomizations/base.yaml
+  - ./apps/kube-state-metrics.yaml
